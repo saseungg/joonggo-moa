@@ -42,20 +42,23 @@ const ProductListLayout = styled.div`
 `;
 
 const GoToTopButton = styled.button`
-  position: fixed;
+  position: absolute;
   bottom: 18px;
   right: 18px;
 
   width: 56px;
   height: 56px;
 
-  background-color: ${({ theme }) => theme.colors.accent.background.primary};
-  border: 1px solid ${({ theme }) => theme.colors.neutral.border.default};
   border-radius: 56px;
+  background-color: #e5e5e5;
+
+  &: hover {
+    background-color: ${({ theme }) => theme.colors.accent.background.primary};
+  };
 
   & > svg {
     fill: ${({ theme }) => theme.colors.accent.text.default};
-  }
+  };
 `;
 
 export { Header, BackButton, HeaderTitle, EmptyTag, ProductListLayout, GoToTopButton };

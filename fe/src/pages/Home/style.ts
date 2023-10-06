@@ -10,15 +10,13 @@ const Layout = styled.div`
 `;
 
 const GoToTopButton = styled.button`
-  position: absolute;5
-  justify-content: center;
+  position: absolute;
 
   bottom: 176px;
   right: 24px;
 
   width: 56px;
   height: 56px;
-  padding: 10px;
 
   border-radius: 56px;
   background-color: #e5e5e5;
