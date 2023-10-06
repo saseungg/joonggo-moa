@@ -10,7 +10,7 @@ const Layout = styled.div`
 `;
 
 const GoToTopButton = styled.button`
-  position: absolute;
+  position: absolute;5
   justify-content: center;
 
   bottom: 176px;
