@@ -5,11 +5,17 @@ import { PALETTE } from '@styles/color';
 const ImageInputLayout = styled.div`
   overflow-x: scroll;
   overflow-y: hidden;
+  margin-top: 7px;
 
   border-bottom: 1px solid ${({ theme }) => theme.colors.neutral.border.default};
 
   &::-webkit-scrollbar {
-    display: none;
+    height: 7px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: ${({ theme }) => theme.colors.accent.background.primary};
+    border-radius: 10px;
   }
 `;
 
@@ -59,12 +65,15 @@ const CurrentCount = styled.span`
 `;
 
 const DeleteImageButton = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  top: -5px;
+  top: -4px;
   right: -5px;
 
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
 
   background-color: ${PALETTE.BLACK};

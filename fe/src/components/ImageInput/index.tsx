@@ -44,7 +44,7 @@ const ImageInput: React.FC<ImageInputProps> = ({ onChange, onDelete, images }) =
           <S.ImageLayout key={idx}>
             <S.Image src={URL.createObjectURL(image)} />
             <S.DeleteImageButton onClick={() => deleteImageHandler(image)}>
-              <Icon name={ICON_NAME.MULTIPLY} fill="WHITE" />
+              <Icon name={ICON_NAME.MULTIPLY} fill="WHITE" size={15}/>
             </S.DeleteImageButton>
           </S.ImageLayout>
         ))}
