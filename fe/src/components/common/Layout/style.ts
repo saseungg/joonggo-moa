@@ -45,7 +45,7 @@ const TitleLayout = styled.div`
 const MobileView = styled.div`
   position: relative;
   width: 440px;
-  height: 100vh;
+  height: 100%;
   background-color: ${({ theme }) => theme.colors.neutral.background.default};
 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 8px;

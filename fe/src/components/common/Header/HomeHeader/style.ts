@@ -5,6 +5,7 @@ const HomeHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   position: sticky;
+  top: 0;
 
   width: 100%;
   max-width: 440px;

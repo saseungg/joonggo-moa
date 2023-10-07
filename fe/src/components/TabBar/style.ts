@@ -30,7 +30,7 @@ const TabBar = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  position: sticky;
   bottom: 0;
 
   width: 100%;
