@@ -4,7 +4,8 @@ const HomeHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: fixed;
+  top: 0;
 
   width: 100%;
   max-width: 440px;
