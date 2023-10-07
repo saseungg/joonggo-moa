@@ -34,7 +34,7 @@ const NewProductButton = styled(Button)`
 
 const ProductListLayout = styled.div`
   margin-bottom: 65px;
-  height: calc(100vh - 48px - 65px);
+  min-height: calc(100vh - 48px - 65px);
 
   background-color: ${({ theme }) => theme.colors.neutral.background.default};
 `;
