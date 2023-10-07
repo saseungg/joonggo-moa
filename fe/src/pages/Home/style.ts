@@ -3,10 +3,10 @@ import styled from 'styled-components';
 import Button from '@components/common/Button';
 
 const GoToTopButton = styled.button`
-  position: absolute;
+  position: sticky;
 
   bottom: 176px;
-  right: 24px;
+  float: right;
 
   width: 56px;
   height: 56px;
@@ -16,23 +16,29 @@ const GoToTopButton = styled.button`
 
   &: hover {
     background-color: ${({ theme }) => theme.colors.accent.background.primary};
-  };
+  }
 
   & > svg {
     fill: ${({ theme }) => theme.colors.accent.text.default};
-  };
+  }
 `;
 
-const NewProductButton = styled(Button)`
-  position: absolute;
-
-  bottom: 107px;
-  right: 24px;
-`;
+const NewProductButton = styled(Button)``;
 
 const ProductListLayout = styled.div`
   margin-bottom: 65px;
   min-height: calc(100vh - 48px - 65px);
 `;
 
-export { GoToTopButton, NewProductButton, ProductListLayout };
+const ButtonLayout = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+  
+  position: sticky;
+  bottom: 100px;
+
+  float: right;
+`;
+
+export { GoToTopButton, NewProductButton, ProductListLayout, ButtonLayout };

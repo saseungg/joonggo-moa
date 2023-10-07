@@ -64,15 +64,17 @@ const Home = () => {
 
       <TabBar activeTab="home" />
 
-      <S.GoToTopButton onClick={handleGoToTopBtnClick}>
-        <Icon name={ICON_NAME.ARROW_UP} />
-      </S.GoToTopButton>
-
-      <Link to={PATH.NEW_PRODUCT}>
-        <S.NewProductButton buttonType="circle">
-          <Icon name={ICON_NAME.PLUS} />
-        </S.NewProductButton>
-      </Link>
+      <S.ButtonLayout>
+        <S.GoToTopButton onClick={handleGoToTopBtnClick}>
+          <Icon name={ICON_NAME.ARROW_UP} />
+        </S.GoToTopButton>
+        <S.ButtonLayout></S.ButtonLayout>
+        <Link to={PATH.NEW_PRODUCT}>
+          <S.NewProductButton buttonType="circle">
+            <Icon name={ICON_NAME.PLUS} />
+          </S.NewProductButton>
+        </Link>
+      </S.ButtonLayout>
     </>
   );
 };
