@@ -37,6 +37,8 @@ const TitleLayout = styled.div`
     width: 400px;
     height: 100vh;
     padding: 80px 0;
+    position: sticky;
+    top: 0;
 
     z-index: 100;
   }
