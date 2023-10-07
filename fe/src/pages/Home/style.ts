@@ -1,13 +1,6 @@
 import styled from 'styled-components';
-import { PALETTE } from '@styles/color';
 
 import Button from '@components/common/Button';
-
-const Layout = styled.div`
-  max-width: 393px;
-  height: 853px;
-  position: relative;
-`;
 
 const GoToTopButton = styled.button`
   position: absolute;
@@ -42,4 +35,4 @@ const ProductListLayout = styled.div`
   min-height: calc(100vh - 48px - 65px);
 `;
 
-export { Layout, GoToTopButton, NewProductButton, ProductListLayout };
+export { GoToTopButton, NewProductButton, ProductListLayout };
