@@ -1,5 +1,3 @@
-// ImageInput.tsx
-
 import React, { ChangeEvent } from 'react';
 import { ICON_NAME } from '@constants/index';
 import Icon from '@components/common/Icon';
