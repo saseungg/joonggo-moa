@@ -33,6 +33,8 @@ const TitleLayout = styled.div`
   @media screen and (min-width: 950px) {
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 0;
 
     width: 400px;
     height: 100vh;
@@ -45,7 +47,7 @@ const TitleLayout = styled.div`
 const MobileView = styled.div`
   position: relative;
   width: 440px;
-  height: 100vh;
+  min-height: 100%;
   background-color: ${({ theme }) => theme.colors.neutral.background.default};
 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 8px;

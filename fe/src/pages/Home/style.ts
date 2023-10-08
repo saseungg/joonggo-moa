@@ -33,20 +33,18 @@ const NewProductButton = styled(Button)`
 `;
 
 const ProductListLayout = styled.div`
+  padding-top: 48px;
   margin-bottom: 65px;
-  height: calc(100vh - 48px - 65px);
-  overflow-y: scroll;
+  min-height: calc(100vh - 48px - 65px);
 
   background-color: ${({ theme }) => theme.colors.neutral.background.default};
-
-  &::-webkit-scrollbar {
-    width: 5px;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: ${({ theme }) => theme.colors.accent.background.primary};
-    border-radius: 12px;
-  }
 `;
 
-export { GoToTopButton, NewProductButton, ProductListLayout };
+const ButtonLayout = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  bottom: 0;
+`;
+
+export { GoToTopButton, NewProductButton, ProductListLayout, ButtonLayout };

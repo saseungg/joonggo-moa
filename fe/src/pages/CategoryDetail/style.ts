@@ -5,10 +5,13 @@ const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   gap: 45px;
+  position: sticky;
+  top: 0;
 
   height: 48px;
   padding: 0 9px;
 
+  background-color: ${({ theme }) => theme.colors.neutral.background.default};
   border-bottom: 1px solid ${({ theme }) => theme.colors.neutral.border.default};
 `;
 
@@ -37,25 +40,32 @@ const EmptyTag = styled.div`
 `;
 
 const ProductListLayout = styled.div`
-  height: calc(100vh - 48px);
-  overflow-y: scroll;
+  min-height: calc(100vh - 48px);
 `;
 
 const GoToTopButton = styled.button`
-  position: fixed;
-  bottom: 18px;
+  position: absolute;
+  bottom: 30px;
   right: 18px;
 
   width: 56px;
   height: 56px;
 
-  background-color: ${({ theme }) => theme.colors.accent.background.primary};
-  border: 1px solid ${({ theme }) => theme.colors.neutral.border.default};
   border-radius: 56px;
+  background-color: #e5e5e5;
+
+  &: hover {
+    background-color: ${({ theme }) => theme.colors.accent.background.primary};
+  }
 
   & > svg {
     fill: ${({ theme }) => theme.colors.accent.text.default};
   }
 `;
 
-export { Header, BackButton, HeaderTitle, EmptyTag, ProductListLayout, GoToTopButton };
+const ButtonLayout = styled.div`
+  position: sticky;
+  bottom: 0;
+`
+
+export { Header, BackButton, HeaderTitle, EmptyTag, ProductListLayout, GoToTopButton, ButtonLayout };
