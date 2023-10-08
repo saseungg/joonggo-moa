@@ -40,4 +40,11 @@ const ProductListLayout = styled.div`
   background-color: ${({ theme }) => theme.colors.neutral.background.default};
 `;
 
-export { GoToTopButton, NewProductButton, ProductListLayout };
+const ButtonLayout = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  bottom: 0;
+`;
+
+export { GoToTopButton, NewProductButton, ProductListLayout, ButtonLayout };
