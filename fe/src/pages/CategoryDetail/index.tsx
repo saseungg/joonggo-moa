@@ -55,9 +55,11 @@ const CategoryDetail = () => {
         {regionsData && <ProductList regionId={regionsData?.regions[0].id} categoryId={Number(idParams)} />}
       </S.ProductListLayout>
 
-      <S.GoToTopButton onClick={goToTopHandler}>
-        <Icon name={ICON_NAME.ARROW_UP} />
-      </S.GoToTopButton>
+      <S.ButtonLayout>
+        <S.GoToTopButton onClick={goToTopHandler}>
+          <Icon name={ICON_NAME.ARROW_UP} />
+        </S.GoToTopButton>
+      </S.ButtonLayout>
     </>
   );
 };
