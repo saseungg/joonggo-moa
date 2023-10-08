@@ -33,6 +33,8 @@ const TitleLayout = styled.div`
   @media screen and (min-width: 950px) {
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 0;
 
     width: 400px;
     height: 100vh;
