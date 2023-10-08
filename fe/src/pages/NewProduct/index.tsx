@@ -32,6 +32,7 @@ interface Product {
 }
 
 const NewProduct = () => {
+  const navigate = useNavigate();
   const [images, setImages] = useState<File[]>([]);
   const [title, setTitle] = useState('');
   const [category, setCategory] = useState({
@@ -109,7 +110,6 @@ const NewProduct = () => {
   });
 
   const handleSubmitClick = async () => {
-    const navigate = useNavigate();
     const formData = new FormData();
 
     formData.append('title', title);
