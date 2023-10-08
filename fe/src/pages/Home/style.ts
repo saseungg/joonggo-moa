@@ -33,6 +33,7 @@ const NewProductButton = styled(Button)`
 `;
 
 const ProductListLayout = styled.div`
+  padding-top: 48px;
   margin-bottom: 65px;
   min-height: calc(100vh - 48px - 65px);
 
