@@ -1,10 +1,5 @@
 import styled from 'styled-components';
 
-const LogoImg = styled.img`
-  width: 200px;
-  height: 200px;
-`;
-
 const Message = styled.span`
   font-size: ${({ theme }) => theme.fonts.title3.regular.fontSize};
   font-weight: ${({ theme }) => theme.fonts.title3.regular.fontWeight};
@@ -34,4 +29,4 @@ const ServerError = styled.div`
   height: 100%;
 `;
 
-export { LogoImg, Message, HomeButton, ServerError };
+export { Message, HomeButton, ServerError };
