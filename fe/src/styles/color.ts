@@ -12,7 +12,7 @@ const PALETTE = {
   GRAY_900: '#3C3C43',
   BLACK: '#000000',
   MINT: '#00C7BE',
-  ORANGE: '#FF9500',
+  GREEN: '#3CB654',
   BLUE: '#007AFF',
   RED: '#FF3B30',
 };
@@ -42,7 +42,7 @@ const lightColors = {
       weak: PALETTE.BLACK,
     },
     background: {
-      primary: PALETTE.ORANGE,
+      primary: PALETTE.GREEN,
       secondary: PALETTE.MINT,
     },
   },
