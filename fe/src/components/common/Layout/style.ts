@@ -4,7 +4,7 @@ import { PALETTE } from '@styles/color';
 const Layout = styled.div`
   display: flex;
   justify-content: center;
-  background-color: #fff8df;
+  background-color: #F6FFF8;
 
   @media screen and (min-width: 1024px) {
     padding: 0 16px;

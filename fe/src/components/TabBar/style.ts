@@ -9,7 +9,7 @@ interface TabProps {
 
 const IconColorStyles = css<TabProps>`
   & > svg {
-    fill: ${({ name, activetab }) => (name === activetab ? PALETTE.ORANGE : PALETTE.GRAY_800)}
+    fill: ${({ name, activetab }) => (name === activetab ? PALETTE.GREEN : PALETTE.GRAY_800)}
 `;
 
 const Tab = styled.div<TabProps>`
@@ -21,7 +21,7 @@ const Tab = styled.div<TabProps>`
   font-size: ${({ theme }) => theme.fonts.caption1.fontSize};
   line-height: ${({ theme }) => theme.fonts.footnote.lineHeight};
   font-weight: ${({ theme }) => theme.fonts.footnote.fontWeight};
-  color: ${({ name, activetab, theme }) => (name === activetab ? PALETTE.ORANGE : PALETTE.GRAY_800)};
+  color: ${({ name, activetab, theme }) => (name === activetab ? PALETTE.GREEN : PALETTE.GRAY_800)};
 
   ${IconColorStyles}
 `;

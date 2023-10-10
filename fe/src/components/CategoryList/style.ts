@@ -61,7 +61,7 @@ const CategoryItem = styled.li`
   border-bottom: 1px solid ${({ theme }) => theme.colors.neutral.border.default};
 
   &.active {
-    color: ${PALETTE.ORANGE};
+    color: ${PALETTE.GREEN};
   }
 `;
 

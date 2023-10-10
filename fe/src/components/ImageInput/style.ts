@@ -55,7 +55,7 @@ const ImageLayout = styled.div`
 
 // todo: 현재 카운트 개수 0일 때는 gray, 0이상 주황색으로 변경
 const CurrentCount = styled.span`
-  color: ${PALETTE.ORANGE};
+  color: ${PALETTE.GREEN};
 `;
 
 const DeleteImageButton = styled.button`

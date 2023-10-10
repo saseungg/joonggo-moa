@@ -1,13 +1,5 @@
 import styled from 'styled-components';
 
-const LogoImg = styled.img`
-  position: relative;
-  left: 20px;
-
-  width: 200px;
-  height: 200px;
-`;
-
 const LoadingText = styled.span`
   font-size: ${({ theme }) => theme.fonts.headline.fontSize};
   font-weight: ${({ theme }) => theme.fonts.headline.fontWeight};
@@ -26,4 +18,4 @@ const Loading = styled.div`
   height: 100%;
 `;
 
-export { Loading, LogoImg, LoadingText };
+export { Loading, LoadingText };

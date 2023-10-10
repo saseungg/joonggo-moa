@@ -18,14 +18,14 @@ const Layout = ({ children }: LayoutProps) => {
         <S.Logo src={logo} />
         <S.TitleBox>
           <S.Title>
-            우리 동네 중고
+            우리 동네
             <br />
-            직거래 마켓
+            중고 상품 찾기
           </S.Title>
           <S.Description>
-            동네 주민들과 가깝고
+            더 쉽고 간편하게 
             <br />
-            따뜻한 거래를 지금 경험해보세요.
+            SecondHand에서 시작하세요!
           </S.Description>
         </S.TitleBox>
       </S.TitleLayout>
