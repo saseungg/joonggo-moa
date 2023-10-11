@@ -1,83 +1,47 @@
+<br>
+<div align = "center">
+<img src="https://github.com/saseungg/readme-art/assets/115215178/27c01436-b225-4f47-a477-beadeb38f68f" width="20%"/>
+<h3>우리 동네 중고 거래 마켓</h3>
 
-## 🥕 Second-Hand
- <img src="https://github.com/second-hand-team06/second-hand/assets/115435784/adcf994c-cd7a-4e40-a9f0-b61fc6dc433d" width="600px" />
-
-## 👥 Team Members
-
- | <img src="https://github.com/second-hand-team06/second-hand/assets/115215178/61eef2ff-612f-4bf7-8b7a-eb18cc01da71" width="100px" /> | <img src="https://github.com/second-hand-team06/second-hand/assets/115215178/d658882c-ca90-49b7-b921-8d95a139f325" width="100px" /> | <img src="https://github.com/second-hand-team06/second-hand/assets/115215178/b77dcc42-989e-464f-bcc5-80bd62da2f07" width="100px" /> | <img src="https://github.com/second-hand-team06/second-hand/assets/115215178/3eba9049-9627-499b-a538-c9db0a818f02" width="100px" /> |
-| :---: | :---: | :---: | :---: |
-| [다온(FE)](https://github.com/saseungg) | [아켄(FE)](https://github.com/yousooa) | [버디(BE)](https://github.com/birdieHyun) | [루크(BE)](https://github.com/acceptor-gyu) |
-
-          
-## 🛠 Skills
-
-### Front-End
-<img src="https://img.shields.io/badge/Typescript-3178C6?style=flat&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/-Storybook-FF4785?style=flat&logo=Storybook&logoColor=white"/>
-
-### Back-End
-
-<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Gradle-02303A?style=flat&logo=Gradle&logoColor=white"/> <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=SpringBoot&logoColor=white"/> <img src="https://img.shields.io/badge/Spring%20Data%20JPA-03EF62?style=flat"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white"/> ![OAuth 2.0](https://img.shields.io/badge/OAuth-EB5424?style=flat) ![IntelliJ IDEA](https://img.shields.io/badge/-IntelliJ%20IDEA-FF3850?style=flat&logo=IntelliJ%20IDEA&logoColor=white)
-
-### Infrastructure & CI/CD
-
-<img src="https://img.shields.io/badge/AWS%20EC2-FA7343?style=flat&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/AWS%20RDS-red?style=flat&logo=amazonrds&logoColor=white"/> <img src="https://img.shields.io/badge/AWS%20S3-569A31?style=flat&logo=amazons3&logoColor=white"/> 
-![nginx](https://img.shields.io/badge/nginx-009639?style=flat&logo=nginx&logoColor=white)
-![Github Actions](https://img.shields.io/badge/Github%20Actions-2088FF?style=flat&logo=GithubActions&logoColor=white)
-![AWS Codedeploy](https://img.shields.io/badge/AWS%20Codedeploy-yellowgreen?style=flat)
+다양한 중고 물품들을 중고모아에서 만나보세요!<br><br><br>
+</div>
 
 
-## 🗂️ 팀 관리 노션
-[노션 링크](https://yielding-effect-d6a.notion.site/Second-Hand-team06-2ffd62e597074a5a89781298be87713a?pvs=4)
 
-## 📜 그라운드 룰
+## 🌟 서비스 소개
+> 중고모아는 당근마켓을 모티브로 만들어진 프로젝트입니다. <br>
+팀프로젝트 이후 새로운 서비스로 만들고자 개인 프로젝트로 리팩토링 하면서 기능을 추가하고 있습니다.
+- [팀프로젝트 레포](https://github.com/second-hand-team06/second-hand)
+- [팀노션 확인](https://www.notion.so/b0b482d007df45838bb3c8ce44130a48)
 
-### 1. 출석은 9시 55분 기준으로
+### 어떤 서비스인지 자세히 알아볼까요?
+중고모아는 중고 물품들을 사고 팔 수 있는 플랫폼입니다.
 
-- 지각시 지각비 1000원
-- 지각비는 회식 비용으로 사용 예정
+- 동네 설정을 통해 우리 동네에서 판매하고 있는 물품들을 확인할 수 있어요.
+- 사놓고 쓰지 않는 물건들이 있나요? 중고모아에서 상품을 등록해서 판매해보세요.
+- 관심 있는 물품은 좋아요를 꾸욱! 관심 리스트에서 확인할 수 있습니다.
+- 카테고리별로 물품들을 확인해보세요!
 
-### 2.  스크럼 Rule
+[👉 중고모아 사이트로 고고싱!]() <br>
 
-- 10시 시작
-- 양식
-    - 어제 무엇(Task)를 했는가
-    - 오늘 무엇(Task)를 할 예정인가
-    - 문제점/ 이슈는 무엇인가
-    - 프리스타일 🙅‍♂️
+## 📹 동작 화면
 
-### 3. 브랜치룰
+## 🔥 기여한 기능
+- 모바일, 데스크탑 반응형 웹 지원
+- oauth를 이용한 로그인 처리
+- 홈화면 무한 스크롤
+- 상품 등록 추가 (카테고리 선택, 이미지 업로드)
 
-- `main`
-- `dev` (main에서 git switch -c fe)
-    - `fe` (dev에서 git switch -c fe-feature/#1-project-init)
-    - `be`
-- `release-fe`
-- `release-be`
+## 🗳️ 기술스택
+|목적|이름|버전|선정 이유|
+|:---:|:---:|:---:|:---:|
+|정적 타입 검사|[TypeScript](https://www.typescriptlang.org/)|^4.9.5|prop으로 받는 값들 감지 및 코드 안전성|
+|웹 개발|[React](https://react.dev/)|^18.2.0|컴포넌트 기반의 동적 웹 개발을 위해서|
+|스타일 관리|[styled-components](https://styled-components.com/)|^6.0.0|컴포넌트 기반 스타일링|
+|테스트|[Storybook](https://storybook.js.org/)|^7.0.20|컴포넌트 시각적 테스트|
+|코드 포맷팅|[prettier](https://prettier.io/)|^2.8.8|
+|코드 품질 검사|[eslint](https://eslint.org/)|^8.42.0|코드 오류와 버그를 탐지 및 코드 품질 향상|
 
+## 🧐 고민했던 부분
+### createObjectURL vs FileReader
 
-#### Prefix
-
-- `fe`
-
-- `be`
-
-#### Infix
-
-- `feature/`
-
-- `refactor/`
-
-- `release/`
-
-#### Suffix
-
-#000(이슈 번호) + 기능 명
-
-### 예제
-
-`fe-feature/#1-project-init`
-
-
-### 4. 회고 시간
-
-금요일 오후 3시 ~ 오후 3시 30분
