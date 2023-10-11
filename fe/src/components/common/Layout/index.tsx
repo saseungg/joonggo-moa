@@ -20,12 +20,12 @@ const Layout = ({ children }: LayoutProps) => {
           <S.Title>
             우리 동네
             <br />
-            중고 상품 찾기
+            중고 거래 마켓
           </S.Title>
           <S.Description>
-            더 쉽고 간편하게 
+            다양한 중고 물품들을
             <br />
-            SecondHand에서 시작하세요!
+            중고모아에서 만나보세요!
           </S.Description>
         </S.TitleBox>
       </S.TitleLayout>

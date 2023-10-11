@@ -59,7 +59,7 @@ const Image = styled.img`
 `;
 
 const Logo = styled.img`
-  width: 180px;
+  width: 130px;
   margin-bottom: 130px;
 `;
 
