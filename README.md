@@ -1,6 +1,6 @@
 <br>
 <div align = "center">
-<img src="https://github.com/saseungg/readme-art/assets/115215178/27c01436-b225-4f47-a477-beadeb38f68f" width="20%"/>
+<img src="https://github.com/saseungg/joonggo-moa/assets/115215178/4a660f8f-aed9-4fff-b396-955416f79d1e" width="20%"/>
 <h3>우리 동네 중고 거래 마켓</h3>
 
 다양한 중고 물품들을 중고모아에서 만나보세요!<br><br><br>
